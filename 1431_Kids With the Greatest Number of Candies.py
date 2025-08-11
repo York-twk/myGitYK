@@ -14,7 +14,7 @@ def kidsWithCandies(self, candies, extraCandies):
                 ans.append(False)        
         return ans
 
-
+a = "Hello"
 ori_candies = [2,3,5,1,3]
 ori_ex_candies = 3
 print(kidsWithCandies("", ori_candies, ori_ex_candies))
