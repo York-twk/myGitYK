@@ -56,8 +56,6 @@ def gcdOfStrings(self, str1, str2):
         else:
             return gcd(y, x%y)
     return str1[:gcd(len(str1), len(str2))]
-
-
             
 print("ans={}".format(gcdOfStrings("", "ABC", "ABCDEABCDE")))
 
